@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( stereo_sgbm_test )
+find_package( OpenCV REQUIRED )
+add_executable( stereo_sgbm_test stereo_sgbm_test.cpp )
+target_link_libraries( stereo_sgbm_test ${OpenCV_LIBS} )

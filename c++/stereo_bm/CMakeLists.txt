@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( stereo_bm )
+find_package( OpenCV REQUIRED )
+add_executable( stereo_bm stereo_bm.cpp )
+target_link_libraries( stereo_bm ${OpenCV_LIBS} )

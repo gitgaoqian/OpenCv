@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<opencv_storage>
+
+
+<Translational_Vector type_id="opencv-matrix">
+<rows>3</rows>
+
+<cols>1</cols>
+
+<dt>d</dt>
+
+<data>
+-59.319656 -0.277513 1.726316
+</data>
+</Translational_Vector>
+</opencv_storage>

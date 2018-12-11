@@ -1,0 +1,1 @@
+/home/ros/opencv_files/c++/face_detect/build/CMakeFiles/face_detect.dir

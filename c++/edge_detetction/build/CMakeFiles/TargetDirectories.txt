@@ -1,0 +1,1 @@
+/home/ros/opencv_files/c++/edge_detetction/build/CMakeFiles/canny.dir

@@ -1,0 +1,23 @@
+linux编译c++文件的方法：
+1 g++
+对于源文件只有一个cpp文件：（a.cpp）
+步骤：　
+	1　编写cpp程序
+	2　编译程序并生成执行文件: g++ a.cpp -o a
+对于源文件有多个cpp文件：
+比如：
+	a.cpp中导入了b.cpp对应的头文件，即#include "b.hpp",此时的编译程序为：
+	g++ a.cpp b.cpp -o a
+参考：http://blog.csdn.net/dengshuai_super/article/details/51766786
+2 cmake
+步骤：
+	1 编写cpp程序，创建CMmakeList.txt文件
+	2 终端编译　cmake .(.不可省略)
+	3　生成执行文件：　make
+	4　运行　./执行文件
+opencv的编译常用第二种
+流程描述为：
+源文件—cmakelist．txt—cmake —makefile —make —生成可执行文件
+其中人工参与的是源文件和cmakelist.txt的编写，
+cmake命令后自动产生makefile
+make后产生可执行文件

@@ -1,0 +1,3 @@
+11-5
+对于图片上的人脸检测，girl.jpg和luna.jpg都可以很好地得到检测效果，但是boy.jpg和sherdon.jpg就完全不行
+暂时放弃face_detect和face_reco的学习

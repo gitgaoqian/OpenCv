@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ros/opencv_files/c++/edge_detetction/canny.cpp
+iostream
+-
+stdio.h
+-
+opencv2/opencv.hpp
+-
+

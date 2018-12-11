@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ros/opencv_files/c++/stereo_match/stereo_match.cpp
+opencv2/opencv.hpp
+-
+stdio.h
+-
+iostream
+-
+

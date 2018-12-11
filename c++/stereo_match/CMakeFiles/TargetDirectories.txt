@@ -1,0 +1,1 @@
+/home/ros/opencv_files/c++/stereo_match/CMakeFiles/stereo_match.dir

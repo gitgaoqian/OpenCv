@@ -1,0 +1,1 @@
+/home/ros/opencv_files/c++/stereo_sgbm_test/CMakeFiles/stereo_sgbm_test.dir
